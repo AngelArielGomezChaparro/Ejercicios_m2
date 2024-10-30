@@ -1,4 +1,8 @@
-radius = float(input("What's the radius of the circle?: "))
+firstNote = float(input("enter your first note: " ))
+secondNote = float(input("enter your secund note: "))
+thirdNote = float(input("enter your third note: "))
+fourthNote = float(input("enter your fourth note: "))
 
-print(f"The circumference of the circle is {radius * 2 * 3.14}.")
-print(f"The area of the circle is {3.14 * radius * radius}.")
+Total = (firstNote + secondNote + thirdNote + fourthNote ) 
+endtotal = (Total / 4)
+print(f"Your grade average is: {endtotal}" )
