@@ -1,8 +1,3 @@
-firstNote = float(input("enter your first note: " ))
-secondNote = float(input("enter your secund note: "))
-thirdNote = float(input("enter your third note: "))
-fourthNote = float(input("enter your fourth note: "))
-
-Total = (firstNote + secondNote + thirdNote + fourthNote ) 
-endtotal = (Total / 4)
-print(f"Your grade average is: {endtotal}" )
+centimeters = float(input("Enter the measurement in centimeters to convert to inches: "))
+inches = centimeters / 2.54
+print(f"The measurement in inches is: {inches}")
