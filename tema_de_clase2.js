@@ -4,3 +4,6 @@ let name = ["Angel", "Ariel", "Gomez"];
 //                           true
 for (let index = 0; index < name.length; index++)
     console.log(name [0]);
+
+
+
